@@ -1,7 +1,4 @@
 #include "Array.h"
-#include <iostream>
-
-using namespace std;
 
 Array::Array() { //a1
     size = 1;

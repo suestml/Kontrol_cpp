@@ -1,8 +1,4 @@
 #include "Pi.h"
-#include <iostream>
-#include <cmath>
-
-using namespace std;
 
 Pi:: Pi(const int nTerms) : n(nTerms) {}
 
@@ -23,10 +19,3 @@ double Pi::apprErr() {
 void Pi::print() {
     cout << "Pi with " << n << " terms: " << value() << endl;
 }
-
-// int main(){
-//     Pi pi2(2);  
-//     pi2.print();  
-//     cout << pi2.apprErr() << endl;  
-//     return 0;
-// }
